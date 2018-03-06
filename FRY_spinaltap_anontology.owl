@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rachel/ontologies/spinaltapontology#"
+     xml:base="http://www.semanticweb.org/rachel/ontologies/spinaltapontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology">
+        <rdfs:comment>This is an ontology designed to describe the film &quot;This is Spinal Tap&quot;.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#SourcesOfInformation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#SourcesOfInformation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+        <rdfs:label xml:lang="en">Plays_role_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155">
+        <rdfs:label xml:lang="en">Contributed_to_film_as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158">
+        <rdfs:label xml:lang="en">Contributed_to_album_as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159">
+        <rdfs:label xml:lang="en">Has_trivia_tidbit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">Has_appeared_on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234">
+        <rdfs:label xml:lang="en">Is_played_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235">
+        <rdfs:label xml:lang="en">Has_performed_as_part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107">
+        <rdfs:label xml:lang="en">Film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107"/>
+        <rdfs:isDefinedBy>Film that depicts the trials and tribulations of fictional heavy metal rock band, &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">This_Is_Spinal_Tap</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115"/>
+        <rdfs:isDefinedBy>Someone who portrays a character in a play, movie, etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115"/>
+        <rdfs:isDefinedBy>Someone who contributes creative ideas to a work including, but not limited to a script, novel, song etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Writer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000112 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000112">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115"/>
+        <rdfs:isDefinedBy>A person who typically plans and coordinates activities relating to the writing, directing, editing, and financing of a film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Producer</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Film_producer</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000113 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000113">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115"/>
+        <rdfs:isDefinedBy>Someone who supervises the production activities in relation to a film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000114 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000114">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115"/>
+        <rdfs:isDefinedBy>An individual who performs music in a variety of ways, including but not limited to playing an instrument, or singing in front of an audience.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Musical_performer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107"/>
+        <rdfs:isDefinedBy>Potential roles of film/album contributors.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Contribution_to_film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
+        <rdfs:isDefinedBy>Song appears in the original film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Song_appears_in_film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000118 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000118">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
+        <rdfs:isDefinedBy>A song that was not included in the original movie.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Song_does_not_appear_in_film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
+        <rdfs:isDefinedBy>An individual who adds contributions to the film in more than one way.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Contributed_to_film_in_multiple_capacities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:comment>Highlighting some technical specifications used in the film industry to claffify the content of a film.</rdfs:comment>
+        <rdfs:label xml:lang="en">Film_technical_specs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:label xml:lang="en">Film_characters</rdfs:label>
+        <owl:SourcesOfInformation>A selection of characters who appear in the film &quot;This Is Spinal Tap&quot;.</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000123 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000123">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:comment>Music that appears in the film or on associated film soundtracks.</rdfs:comment>
+        <rdfs:label xml:lang="en">Film_music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000124 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000124">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:isDefinedBy>A selection of awards, nominations and reviews to help contextualize the film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Film_critical_acclaim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:label xml:lang="en">Film_popculture_connections</rdfs:label>
+        <owl:SourcesOfInformation>There is no doubt that &quot;Spinal Tap&quot; has a huge cult following. In this section, you&apos;ll find some of the ways that &quot;Spinal Tap&quot; has appeared in, or has been influenced by popular culture outside of the film.</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000127 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000127">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000124"/>
+        <rdfs:isDefinedBy>List of reviews/notable critical acclaim associated with the film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Notable_reviews</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000128 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000128">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000124"/>
+        <rdfs:isDefinedBy>List of awards that the film has received.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Awards_received</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000129 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000129">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000124"/>
+        <rdfs:isDefinedBy>List of award nominations that the film has received.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Awards_nominations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:isDefinedBy>A selection of individuals who are actively involved in the making of the film &quot;This Is Spinal Tap&quot; in a variety of capacities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Film_Personnel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000138 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000138">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Rob_Reiner</rdfs:label>
+        <owl:SourcesOfInformation>American actor, director, writer, producer and activist born March 6th, 1947.</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Rob_Reiner</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000139 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000139">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>English rock drummer born August 13th, 1951 who briefly acted for role in &quot;This Is Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RJ_Parnell</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Ric_Parnell</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000140 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000140">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>British actor and writer born July 10th, 1941.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tony_Hendra</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Tony_Hendra</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000141 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000141">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Actor also known as David Kaffinetti.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">David_Kaff</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000142 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000231"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>An American actor, writer, and comedian born October 17th, 1947.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Michael_McKean</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000143 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000143">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000231"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Christopher_Guest</rdfs:label>
+        <owl:SourcesOfInformation>A dual citizen of both Britain and America, Christopher Guest the actor, comedian writer, producer, and director was born February 5th, 1948.</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000144 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000144">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000231"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>American actor, voice actor, comedia, writer, born December 23rd, 1943.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Harry_Shearer</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000145 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000145">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000153"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>British actor born November 30th, 1951.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">June_Chadwick</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/name/nm0006347/</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Lead singer, and guitarist of fictional rock band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">David_StHubbins</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Lead singer, and guitarist of fictional rock band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nigel_Tufnel</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000148 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000148">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000140"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Manager of fictional band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ian_Faith</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000141"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Organ player of fictional rock band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Viv_Savage</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Performs back-up vocals and plays bass in fictional rock band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Derek_Smalls</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Drummer of fictional rock band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mick_Shrimpton</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000152 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000152">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Documentary filmmaker who talks about and interviews the band throughout the film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Marty_DiBergi</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000153 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000153">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Girlfriend of David St. Hubbins. Takes over as manager of band after Ian Faith gives up his job.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Jeanine_Pettibone</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000157 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000157">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>American producer who frequently works with Christopher Guest.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Karen_Murphy</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits?ref_=tt_ov_st_sm</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107"/>
+        <rdfs:label xml:lang="en">Potential_trivia_tidbits</rdfs:label>
+        <owl:SourcesOfInformation>Some interesting facts that provide additional information about some attributes related to the film.</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000163 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000163">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
+        <rdfs:isDefinedBy>&quot;a class or category of artistic endeavor having a particular form, content, technique&quot; - from dictionary.com</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Genre</rdfs:label>
+        <owl:SourcesOfInformation>http://www.dictionary.com/browse/genre</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000164 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000164">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000163"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000165"/>
+        <rdfs:isDefinedBy>&quot;A movie or television show depicting fictional events but presented as a documentary.&quot;- from dictionary.com</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mockumentary</rdfs:label>
+        <owl:SourcesOfInformation>http://www.dictionary.com/browse/mockumentary</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000165 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000165">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000163"/>
+        <rdfs:isDefinedBy>&quot;A play, movie, etc., of light and humorous character with a happy or cheerful ending; a dramatic work in which the central motif is the triumph over adverse circumstance, resulting in a successful or happy conclusion&quot; - from dictionary.com</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Comedy</rdfs:label>
+        <owl:SourcesOfInformation>http://www.dictionary.com/browse/comedy?s=t</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000167 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000167">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
+        <rdfs:comment>The film This Is Spinal Tap is 82 minutes in length.</rdfs:comment>
+        <rdfs:isDefinedBy>The run time of a specific film.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Length</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000168 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000168">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
+        <rdfs:comment>The film This Is Spinal Tap is rated R.</rdfs:comment>
+        <rdfs:isDefinedBy>The rating of content appropriateness in relation to age.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rating</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000169 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000169">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
+        <rdfs:comment>The film This Is Spinal Tap was released on March 2nd, 1984.</rdfs:comment>
+        <rdfs:isDefinedBy>The date on which a film is released.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Date_of_release</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000170 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000170">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000178"/>
+        <rdfs:comment>While many fans think that Spinal Tap&apos;s &quot;Stone Henge&quot; incident was a satirical nod to a similar series of events that happened to real life band Black Sabbath. However, theories on this are mixed, with some pointing to timeline factors that make this look more like a hilarious coincidence.</rdfs:comment>
+        <rdfs:isDefinedBy>An influencial rock band that formed in Britain in 1968.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Black_Sabbath</rdfs:label>
+        <owl:SourcesOfInformation>http://mentalfloss.com/article/55369/15-things-you-might-not-know-about-spinal-tap</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Black_Sabbath</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000171 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000171">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000179"/>
+        <rdfs:isDefinedBy>In season 3, episode 22 of The Simpsons, Spinal Tap makes an appearance. They perform live and inspire Bart to become a musician. The episode aired in April, 1992.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">The_Simpsons</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/The_Otto_Show</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000123"/>
+        <rdfs:isDefinedBy>Songs that appear on both the original 1984 soundtrack for &quot;This Is Spinal Tap&quot;, and its rerelease in 2000.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">This_Is_Spinal_Tap_Motionpicture_Soundtrack</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000178 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000178">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125"/>
+        <rdfs:isDefinedBy>Existing bands that are connected to the fictional band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Related_bands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000179 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000179">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125"/>
+        <rdfs:isDefinedBy>The band &quot;Spinal Tap&quot; has appeared on a number of popular TV shows. Listed below are a small selection.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Related_tv_shows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000180 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000180">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125"/>
+        <rdfs:isDefinedBy>Included in this ontology are a list of featured live performances by Guest, Shearer and McKean as the band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Related_live_performances</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000208 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000208">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
+        <rdfs:isDefinedBy>A song that does not appear on the original soundtrack, and instead appears on the The Is Spinal Tap Soundtrack which was released in the year 2000.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Song_appears_on_rerelease_of_soundtrack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000209 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000209">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 1st track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Hell_hole</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000210 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000210">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 5th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tonight_im_gonna_rock_you_tonight</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000211 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000211">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 3rd track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Heavy_duty</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000212 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000212">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 4th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rock_and_roll_creation</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000213 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000213">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 5th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">America</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000214 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000214">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 6th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cups_and_cakes</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000215 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000215">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 7th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Big_bottom</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000216 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000216">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 8th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Sex_farm</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000217 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000217">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 9th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Stonehenge</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000218 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000218">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 10th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Gimmie_some_money</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000219 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000219">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 11th track on the &quot;This Is Spinal Tap Soundtrack&quot; on both the original 1984 release, and the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Listen_to_the_flower_people</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000220 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000220">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 12th track on the &quot;This Is Spinal Tap Soundtrack&quot; on the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Christmas_with_the_devil</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000221 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000221">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The 13th track on the &quot;This Is Spinal Tap Soundtrack&quot; on the 2000 re-release.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Christmas_with_the_devil_scratchmix</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap_(album)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000223 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000223">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000128"/>
+        <rdfs:isDefinedBy>Winner in this category in 2001 as part of the Video Premiere Awards.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Best_DVD_audio_commentary</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/awards?ref_=tt_awd</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000224 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000224">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000129"/>
+        <rdfs:isDefinedBy>Nominated in this category in 2001 as part of the Video Premiere Awards.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Best_DVD_menu_design</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/awards?ref_=tt_awd</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000225 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000225">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000129"/>
+        <rdfs:isDefinedBy>Nominated in this category in 2001 as part of the Video Premiere Awards.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Best_DVD_overall_original_supplemental_material</rdfs:label>
+        <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/awards?ref_=tt_awd</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000226 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000226">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000127"/>
+        <rdfs:isDefinedBy>Received positive reviews and scored 4/4 stars by Roger and Ebert.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Roger_and_Ebert</rdfs:label>
+        <owl:SourcesOfInformation>https://www.rogerebert.com/reviews/great-movie-this-is-spinal-tap-1984</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000227 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000227">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000178"/>
+        <rdfs:comment>When &quot;This Is Spinal Tap&quot; was released in 1984, many parallels between the fictional band and the real band, Anvil, were made. One of the major paralells can be found in the rotating roster of drummers.  Since the release of Spinal Tap, Anvil has released their own rockumentary that cheekily references the fictional band &quot;Spinal Tap&quot;.</rdfs:comment>
+        <rdfs:isDefinedBy>A Canadian heavy metal band that was formed in 1981.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Anvil</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Anvil_(band)</owl:SourcesOfInformation>
+        <owl:SourcesOfInformation>https://www.rollingstone.com/movies/pictures/this-list-goes-to-11-eleven-trends-predicted-by-this-is-spinal-tap-20140306/this-is-anvil-0155091</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000228 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000228">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000127"/>
+        <rdfs:isDefinedBy>This Is Spinal Tap has a score of 92% on Rotten Tomatoes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rotten_Tomatoes</rdfs:label>
+        <owl:SourcesOfInformation>https://www.rottentomatoes.com/m/this_is_spinal_tap/</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000229 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000229">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000127"/>
+        <rdfs:isDefinedBy>Received a positive review from Janet Maslin in The New York Times on March 2, 1984.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">The_New_York_Times</rdfs:label>
+        <owl:SourcesOfInformation>http://www.nytimes.com/movie/review?res=9903E4D91439F931A35750C0A962948260</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000230 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000230">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000180"/>
+        <rdfs:isDefinedBy>In 2001, Guest, Shearer and McKean played nine cities as &quot;Spinal Tap&quot;, including a show at iconic Carnegie Hall.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Back_from_the_dead_tour</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Spinal_Tap_(band)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000231 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000231">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000180"/>
+        <rdfs:isDefinedBy>In 2009, Guest, Shearer and McKean played London&apos;s &quot;Wembley Arena&quot; as &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">One_night_only_world_tour</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Spinal_Tap_(band)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000232 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000232">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000179"/>
+        <rdfs:isDefinedBy>The first appearance of the fictional band, &quot;Spinal Tap&quot; was on ABC sketchy comedy show called &quot;The T.V. Show&quot; in 1979.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">The_TV_show</rdfs:label>
+        <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/Spinal_Tap_(band)</owl:SourcesOfInformation>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000115"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000123"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000124"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000130"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000127"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000128"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000129"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000138"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000139"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000140"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000141"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000142"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000143"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000144"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000145"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000157"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000148"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000152"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000153"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000163"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000167"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000168"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000169"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000209"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000210"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000211"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000212"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000213"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000214"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000215"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000216"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000217"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000218"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000219"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000220"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000221"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000226"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000228"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000229"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
