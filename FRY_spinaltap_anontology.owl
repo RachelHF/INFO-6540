@@ -7,7 +7,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology">
-        <rdfs:comment>This is an ontology designed to describe the film &quot;This is Spinal Tap&quot;.</rdfs:comment>
+        <rdfs:comment>This ontology was authored by Rachel Fry to fill the requirements of INFO6540.</rdfs:comment>
+        <rdfs:isDefinedBy>This is an ontology designed to describe the film &quot;This is Spinal Tap&quot;.</rdfs:isDefinedBy>
     </owl:Ontology>
     
 
@@ -113,7 +114,9 @@
     <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000107">
+        <rdfs:isDefinedBy>&quot;A series of moving pictures, usually shown in a cinema or on television and often telling a story.&quot; - Cambridge Dictionary</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Film</rdfs:label>
+        <owl:SourcesOfInformation>https://dictionary.cambridge.org/dictionary/english/film</owl:SourcesOfInformation>
     </owl:Class>
     
 
@@ -224,7 +227,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
-        <rdfs:comment>Highlighting some technical specifications used in the film industry to claffify the content of a film.</rdfs:comment>
+        <rdfs:isDefinedBy>Highlighting some technical specifications used in the film industry to claffify the content of a film.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Film_technical_specs</rdfs:label>
     </owl:Class>
     
@@ -234,8 +237,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:isDefinedBy>A selection of characters who appear in the film &quot;This Is Spinal Tap&quot;.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Film_characters</rdfs:label>
-        <owl:SourcesOfInformation>A selection of characters who appear in the film &quot;This Is Spinal Tap&quot;.</owl:SourcesOfInformation>
     </owl:Class>
     
 
@@ -244,7 +247,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000123">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
-        <rdfs:comment>Music that appears in the film or on associated film soundtracks.</rdfs:comment>
+        <rdfs:isDefinedBy>Music that appears in the film or on associated film soundtracks.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Film_music</rdfs:label>
     </owl:Class>
     
@@ -264,8 +267,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000125">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000108"/>
+        <rdfs:isDefinedBy>There is no doubt that &quot;Spinal Tap&quot; has a huge cult following. In this section, you&apos;ll find some of the ways that &quot;Spinal Tap&quot; has appeared in, or has been influenced by popular culture outside of the film.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Film_popculture_connections</rdfs:label>
-        <owl:SourcesOfInformation>There is no doubt that &quot;Spinal Tap&quot; has a huge cult following. In this section, you&apos;ll find some of the ways that &quot;Spinal Tap&quot; has appeared in, or has been influenced by popular culture outside of the film.</owl:SourcesOfInformation>
     </owl:Class>
     
 
@@ -885,7 +888,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000167">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
-        <rdfs:comment>The film This Is Spinal Tap is 82 minutes in length.</rdfs:comment>
+        <rdfs:comment>The film &quot;This Is Spinal Tap&quot; is 82 minutes in length.</rdfs:comment>
         <rdfs:isDefinedBy>The run time of a specific film.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Length</rdfs:label>
         <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
@@ -897,7 +900,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000168">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
-        <rdfs:comment>The film This Is Spinal Tap is rated R.</rdfs:comment>
+        <rdfs:comment>The film &quot;This Is Spinal Tap&quot; is rated R.</rdfs:comment>
         <rdfs:isDefinedBy>The rating of content appropriateness in relation to age.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Rating</rdfs:label>
         <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
@@ -909,7 +912,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000169">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
-        <rdfs:comment>The film This Is Spinal Tap was released on March 2nd, 1984.</rdfs:comment>
+        <rdfs:comment>The film &quot;This Is Spinal Tap&quot; was released on March 2nd, 1984.</rdfs:comment>
         <rdfs:isDefinedBy>The date on which a film is released.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Date_of_release</rdfs:label>
         <owl:SourcesOfInformation>https://en.wikipedia.org/wiki/This_Is_Spinal_Tap</owl:SourcesOfInformation>
