@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology">
-        <rdfs:comment>This ontology was authored by Rachel Fry to fill the requirements of INFO6540.</rdfs:comment>
+        <owl:author>This ontology was authored by Rachel Fry. All sources are shown in the &quot;SourcesOf Information&quot; annotation.</owl:author>
         <rdfs:isDefinedBy>This is an ontology designed to describe the film &quot;This is Spinal Tap&quot;.</rdfs:isDefinedBy>
     </owl:Ontology>
     
@@ -30,6 +30,12 @@
     
 
 
+    <!-- http://www.w3.org/2002/07/owl#author -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#author"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -46,6 +52,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000154">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
+        <rdfs:isDefinedBy>Inverse of &quot;Is_played_by&quot; as shown below, this property is used to show which individual from the personnel entity plays which chracter in the film.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Plays_role_of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -54,6 +61,7 @@
     <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000155">
+        <rdfs:isDefinedBy>This property is used to connect film &apos;personnel&apos; to the roles listed under subclass &apos;Contribution_to_film&apos;. Used to show how that individual relates to the creation of the film&apos;s elements.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Contributed_to_film_as</rdfs:label>
     </owl:ObjectProperty>
     
@@ -62,6 +70,7 @@
     <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000158">
+        <rdfs:isDefinedBy>This property is used to connect film &apos;personnel&apos; to the roles listed under subclass &apos;Contribution_to_film&apos;. Used to show how that individual relates to the creation of the film&apos;s elements. In this case, that element is specifically the &quot;Album&quot; or associated soundtrack.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Contributed_to_album_as</rdfs:label>
     </owl:ObjectProperty>
     
@@ -70,6 +79,7 @@
     <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000159">
+        <rdfs:isDefinedBy>This property is used to connect attributes from the subclass, &quot;Potential_trivia_tidbits&quot; to other elements of the film. This relation adds an interesting element to those exploring the ontology to better understand the relationship of the ontology&apos;s entities to the film.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Has_trivia_tidbit</rdfs:label>
     </owl:ObjectProperty>
     
@@ -79,6 +89,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000233">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:isDefinedBy>This property  is used to define the relationship of an individual to a TV Show.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Has_appeared_on</rdfs:label>
     </owl:ObjectProperty>
     
@@ -87,6 +98,7 @@
     <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234">
+        <rdfs:isDefinedBy>Inverse of &quot;Plays_role_of&quot; as shown below, this property is used to show which character in the film is played by which individual from the personnel entity.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Is_played_by</rdfs:label>
     </owl:ObjectProperty>
     
@@ -95,7 +107,35 @@
     <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000235">
+        <rdfs:isDefinedBy>This property  is used to define the relationship of an individual to a live performance or tour.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Has_performed_as_part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000238 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000238">
+        <rdfs:isDefinedBy>Used to define the relationship between fictional characters.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Is_girlfriend_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239">
+        <rdfs:isDefinedBy>Used to define the relationship between fictional characters.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Is_bandmate_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000240 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000240">
+        <rdfs:isDefinedBy>Used to define the relationship between fictional characters.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Is_boyfriend_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -207,7 +247,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000118">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
-        <rdfs:isDefinedBy>A song that was not included in the original movie.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>A song that was not included (performed or played) in the original movie.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Song_does_not_appear_in_film</rdfs:label>
     </owl:Class>
     
@@ -217,7 +257,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000119">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
-        <rdfs:isDefinedBy>An individual who adds contributions to the film in more than one way.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>An individual who adds contributions to the film in more than one way. For example, they star in AND direct the film, they wrote the script AND play in the fictional band Spinal Tap.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Contributed_to_film_in_multiple_capacities</rdfs:label>
     </owl:Class>
     
@@ -691,8 +731,38 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000240"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000153"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:isDefinedBy>Lead singer, and guitarist of fictional rock band &quot;Spinal Tap&quot;.</rdfs:isDefinedBy>
@@ -706,6 +776,36 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
@@ -742,6 +842,36 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000141"/>
             </owl:Restriction>
@@ -759,6 +889,30 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000144"/>
             </owl:Restriction>
@@ -774,6 +928,36 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000239"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000151"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000234"/>
@@ -814,6 +998,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000238"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:isDefinedBy>Girlfriend of David St. Hubbins. Takes over as manager of band after Ian Faith gives up his job.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Jeanine_Pettibone</rdfs:label>
         <owl:SourcesOfInformation>http://www.imdb.com/title/tt0088258/fullcredits</owl:SourcesOfInformation>
@@ -852,7 +1042,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000163">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000120"/>
-        <rdfs:isDefinedBy>&quot;a class or category of artistic endeavor having a particular form, content, technique&quot; - from dictionary.com</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>&quot;A class or category of artistic endeavor having a particular form, content, technique&quot; - from dictionary.com</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Genre</rdfs:label>
         <owl:SourcesOfInformation>http://www.dictionary.com/browse/genre</owl:SourcesOfInformation>
     </owl:Class>
@@ -989,7 +1179,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000208">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rachel/ontologies/spinaltapontology/0000162"/>
-        <rdfs:isDefinedBy>A song that does not appear on the original soundtrack, and instead appears on the The Is Spinal Tap Soundtrack which was released in the year 2000.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>A song that does not appear on the original soundtrack &quot;This Is Spinal Tap&quot;, and instead appears only on the 2000 rerelease of that album with the same name.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Song_appears_on_rerelease_of_soundtrack</rdfs:label>
     </owl:Class>
     
